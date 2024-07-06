@@ -26,69 +26,85 @@ This Spring Boot application manages tuition classes, students, and subjects. It
 ### Subjects
 
 - **Create Subject**
-  - **URL:** `http POST /tuition/subjects/add`
-  - **Response:** `Subject`
+    ```http
+    POST /tuition/subjects/add
+    ```
 
 - **Get All Subjects**
-  - **URL:** `GET /tuition/subjects/all`
-  - **Response:** `List<Subject>`
+    ```http
+    GET /tuition/subjects/all
+    ```
 
 - **Get Subject by ID**
-  - **URL:** `GET /tuition/subjects/id/{id}`
-  - **Response:** `Subject`
+    ```http
+    GET /tuition/subjects/id/{id}
+    ```
 
 - **Get Subjects by Name**
-  - **URL:** `GET /tuition/subjects/name/{name}`
-  - **Response:** `List<Subject>`
+    ```http
+    GET /tuition/subjects/name/{name}
+    ```
 
 - **Delete Subject**
-  - **URL:** `DELETE /tuition/subjects/{id}`
-  - **Response:** `Void`
+    ```http
+    DELETE /tuition/subjects/{id}
+    ```
 
 ### Students
 
 - **Create Student**
-  - **URL:** `POST /tuition/students/add`
-  - **Response:** `Student`
+    ```http
+    POST /tuition/students/add
+    ```
 
 - **Get All Students**
-  - **URL:** `GET /tuition/students/all`
-  - **Response:** `List<Student>`
+    ```http
+    GET /tuition/students/all
+    ```
 
 - **Get Student by ID**
-  - **URL:** `GET /tuition/students/id/{id}`
-  - **Response:** `Student`
+    ```http
+    GET /tuition/students/id/{id}
+    ```
 
 - **Get Students by Name**
-  - **URL:** `GET /tuition/students/name/{name}`
-  - **Response:** `List<Student>`
+    ```http
+    GET /tuition/students/name/{name}
+    ```
 
 - **Delete Student**
-  - **URL:** `DELETE /tuition/students/{id}`
-  - **Response:** `Void`
+    ```http
+    DELETE /tuition/students/{id}
+    ```
 
 ### Classes
 
 - **Create Class**
-  - **URL:** `POST /tuition/classes/add`
-  - **Response:** `Class`
+    ```http
+    POST /tuition/classes/add
+    ```
 
 - **Get All Classes**
-  - **URL:** `GET /tuition/classes/all`
-  - **Response:** `List<Class>`
+    ```http
+    GET /tuition/classes/all
+    ```
 
 - **Get Class by ID**
-  - **URL:** `GET /tuition/classes/{id}`
-  - **Response:** `Class`
+    ```http
+    GET /tuition/classes/{id}
+    ```
 
 - **Get Classes by Subject**
-  - **URL:** `GET /tuition/classes/subject/{subjectId}`
-  - **Response:** `List<Class>`
+    ```http
+    GET /tuition/classes/subject/{subjectId}
+    ```
 
 - **Get Classes by Student**
-  - **URL:** `GET /tuition/classes/student/{studentId}`
-  - **Response:** `List<Class>`
+    ```http
+    GET /tuition/classes/student/{studentId}
+    ```
 
 - **Delete Class**
-  - **URL:** `DELETE /tuition/classes/{id}`
-  - **Response:** `Void`
+    ```http
+    DELETE /tuition/classes/{id}
+    ```
