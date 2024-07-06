@@ -26,7 +26,7 @@ public class ClassController {
         return ResponseEntity.ok(classes);
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/id/{id}")
     public ResponseEntity<Class> getClassById(@PathVariable Long id) {
         return classService.getClassById(id)
                 .map(ResponseEntity::ok)
