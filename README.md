@@ -26,7 +26,7 @@ This Spring Boot application manages tuition classes, students, and subjects. It
 ### Subjects
 
 - **Create Subject**
-  - **URL:** `POST /tuition/subjects/add`
+  - **URL:** `http POST /tuition/subjects/add`
   - **Response:** `Subject`
 
 - **Get All Subjects**
