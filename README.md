@@ -91,7 +91,7 @@ This Spring Boot application manages tuition classes, students, and subjects. It
 
 - **Get Class by ID**
     ```http
-    GET /tuition/classes/{id}
+    GET /tuition/classes/id/{id}
     ```
 
 - **Get Classes by Subject**
@@ -108,3 +108,8 @@ This Spring Boot application manages tuition classes, students, and subjects. It
     ```http
     DELETE /tuition/classes/{id}
     ```
+## Contact Information
+
+- **Developer**: Shiv Prakash Verma
+- **Email**: shivprakashlps@gmail.com
+- **College**: IIT Ropar
